@@ -1,0 +1,24 @@
+{
+  "name": "catalogit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "api:dev": "pnpm -F api run dev",
+    "api:install": "pnpm -F api install",
+    "db:migrate": "pnpm -F api migrate",
+    "db:studio": "pnpm -F api studio",
+    "db:generate": "pnpm -F api generate",
+    "db:push": "pnpm -F api push",
+    "catalog:install": "pnpm -F catalog install ",
+    "catalog:dev": "pnpm -F catalog run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "await-to-ts": "^1.0.6",
+    "ky": "^1.7.2"
+  }
+}
